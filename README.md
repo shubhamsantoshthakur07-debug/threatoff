@@ -88,29 +88,6 @@ ThreatOff features a persistent **1-Click Evaluation Toolbar** across the applic
 
 ---
 
-## 6. How to Run Locally
-
-### Prerequisites
-- Python 3.10+ with `scikit-learn`, `fastapi`, `uvicorn`, `joblib`, `pandas`
-- Node.js 18+ and `npm`
-
-### 1. Launch FastAPI Backend
-```powershell
-cd C:\Users\shubh\.gemini\antigravity\scratch\threatoff\backend
-# Run with Python environment
-& "C:\Users\shubh\Downloads\insider-threat-prediction\insider-threat-prediction\venv\Scripts\python.exe" -m uvicorn main:app --host 127.0.0.1 --port 8000
-```
-- Swagger API Docs: `http://127.0.0.1:8000/docs`
-- Health Endpoint: `http://127.0.0.1:8000/api/health`
-
-### 2. Launch React Frontend
-```powershell
-cd C:\Users\shubh\.gemini\antigravity\scratch\threatoff\frontend
-npm run dev
-```
-- Accessible in browser at: `http://localhost:5173/`
-
----
 
 ## 7. Technical Architecture & Defense Talking Points
 
