@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FastAPI: Run ThreatOff Backend",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "main:app",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8000",
+        "--reload"
+      ],
+      "cwd": "${workspaceFolder}/backend",
+      "python": "C:\\Users\\shubh\\Downloads\\insider-threat-prediction\\insider-threat-prediction\\venv\\Scripts\\python.exe",
+      "jinja": true
+    }
+  ]
+}
