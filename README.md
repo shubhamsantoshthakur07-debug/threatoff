@@ -1,4 +1,3 @@
-# ThreatOff — AI-Powered Insider Threat Prediction and Detection System
 
 > **Platform**: Enterprise AI-Powered Cybersecurity Behavioral Defense Center  
 > **Domain**: Cybersecurity, Machine Learning, Behavioral Analytics & Security Operations Center (SOC)  
